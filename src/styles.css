@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.sprite-container {
+  position: relative;
+}
+
+.speech-bubble {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  min-width: 80px;
+  max-width: 150px;
+  text-align: center;
+}
+
+.thought-bubble {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px 10px;
+  min-width: 80px;
+  max-width: 150px;
+  text-align: center;
+}
